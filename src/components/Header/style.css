@@ -1,0 +1,53 @@
+@import './../../styles/main.css';
+
+.header {
+  padding: 20px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.header__wrapper {
+  height: auto;
+  padding: 0 15px;
+
+}
+
+.header__title {
+  margin-bottom: 2vh;
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+.header__title strong {
+  font-size: 6vh;
+  font-weight: 700;
+}
+
+.header__title em {
+  font-style: normal;
+  color: var(--purple);
+}
+
+@media (max-width: 620px) {
+	.header {
+		min-height: unset;
+	}
+
+	.header__title {
+		font-size: 3vh;
+	}
+
+	.header__title strong {
+		font-size: 4vh;
+	}
+}
+
+@media (max-width: 410px) {
+	.header__title strong {
+		font-size: 3vh;
+	}
+}
+

@@ -1,0 +1,59 @@
+@import './../../styles/main.css';
+
+.projects-navigation {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.projects li {
+    flex: 1 1 calc(33.33% - 10px);
+    margin: 5px;
+}
+
+.slide__svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--text-color);
+    transition: all 0.3s;
+}
+
+
+.slide__svg:hover {
+    fill: var(--purple);
+}
+
+
+@media (max-width: 1026px) {
+    .projects li {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 816px) {
+    .projects li {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    .projects-navigation {
+        width: 100%;
+    }
+
+    .slide__svg {
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,21 @@
+.header, .projects-page, .contacts {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: 1.5s ease;
+}
+
+.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.up {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.down {
+    opacity: 0;
+    transform: translateY(100%);
+}

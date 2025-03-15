@@ -1,0 +1,23 @@
+.git-hub-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    background-color: var(--purple);
+    color: var(--white); 
+    border: none; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.git-hub-button:hover {
+    background-color: #0056b3;
+}
+
+.git-hub-button:active {
+    background-color: #004080;
+}
