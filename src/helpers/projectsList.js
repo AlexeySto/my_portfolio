@@ -15,6 +15,18 @@ import project03 from "./../img/projects/Project-3.webp";
 import project031 from "./../img/projects/Project-3-1.webp";
 import project032 from "./../img/projects/Project-3-2.webp";
 
+import project04 from "./../img/projects/Project-4.webp";
+import project041 from "./../img/projects/Project-4-1.webp";
+import project042 from "./../img/projects/Project-4-2.webp";
+
+import project05 from "./../img/projects/Project-5.webp";
+import project051 from "./../img/projects/Project-5-1.webp";
+import project052 from "./../img/projects/Project-5-2.webp";
+
+import project06 from "./../img/projects/Project-6.webp";
+import project061 from "./../img/projects/Project-6-1.webp";
+import project062 from "./../img/projects/Project-6-2.webp";
+import project063 from "./../img/projects/Project-6-3.webp";
 
 const projects = [
 	{
@@ -43,6 +55,33 @@ const projects = [
 		images: [project03, project031, project032],
 		description: "Вэб страница моего портфолио. Написана на React.",
 		gitHubLink: 'https://github.com/AlexeySto/My-portfolio',
+	},
+	{
+		id: '4',
+		title: 'Airflow',
+		skills: 'Python, Airflow',
+		img: project04,
+		images: [project04, project041, project042],
+		description: "Система для автоматизации процесса сбора и обработки данных по прасписанию.",
+		gitHubLink: 'https://github.com/AlexeySto/Airflow',
+	},
+	{
+		id: '5',
+		title: 'Data Collector',
+		skills: 'Python, Scrapy',
+		img: project05,
+		images: [project05, project051, project052],
+		description: "Система для автоматизации процесса сбора данных и их предварительной обработки. В данном случае парсинг фото и их ссылок.",
+		gitHubLink: 'https://github.com/AlexeySto/DataCollector',
+	},
+	{
+		id: '6',
+		title: 'Note Master',
+		skills: 'Python',
+		img: project06,
+		images: [project06, project061, project062, project063],
+		description: "Консольное приложение для управления заметками с использованием паттерна MVP (Model-View-Presenter). Проект демонстрирует навыки в ООП, проектировании архитектуры и взаимодействии между компонентами.",
+		gitHubLink: 'https://github.com/AlexeySto/NoteMaster',
 	}
 ];
 
