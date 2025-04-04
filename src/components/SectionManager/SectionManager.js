@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
 const SectionManager = () => {
@@ -7,7 +7,7 @@ const SectionManager = () => {
   const [projectsClassName, setProjectsClassName] = useState('down');
   const [contactsClassName, setContactsClassName] = useState('down');
 
-  const handleScroll = (event) => {
+  const handleScroll = useCallback((event) => {
     event.preventDefault();
 
     const deltaY = event.deltaY;
@@ -47,7 +47,7 @@ const SectionManager = () => {
       }
       setCurrentSection((prev) => prev - 1);
     }
-  };
+  }, [currentSection, setHeaderClassName, setProjectsClassName, setContactsClassName, setCurrentSection]);
 
   const swipeHandlers = useSwipeable({
     onSwipedUp: () => {
@@ -98,7 +98,7 @@ const SectionManager = () => {
     return () => {
       window.removeEventListener('wheel', handleScroll);
     };
-  }, [currentSection, handleScroll]);
+  }, [handleScroll]);
 
   return {
     headerClassName,
