@@ -1,3 +1,5 @@
+import React from 'react';
+
 const VisualStudio = () => {
     return (
         <div className="skill">

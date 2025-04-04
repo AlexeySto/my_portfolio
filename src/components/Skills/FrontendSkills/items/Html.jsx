@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Html = () => {
     return (
         <div className="skill">

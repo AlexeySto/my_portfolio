@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Css = () => {
     return (
         <div className="skill">

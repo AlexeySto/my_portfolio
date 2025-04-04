@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Php = () => {
     return (
         <div className="skill">

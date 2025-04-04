@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Linux = () => {
     return (
         <div className="skill">

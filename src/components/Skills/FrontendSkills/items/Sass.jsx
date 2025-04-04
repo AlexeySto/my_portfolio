@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Sass = () => {
     return (
         <div className="skill">

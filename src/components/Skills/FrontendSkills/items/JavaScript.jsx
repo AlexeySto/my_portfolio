@@ -1,3 +1,5 @@
+import React from 'react';
+
 const JavaScript = () => {
     return (
         <div className="skill">
