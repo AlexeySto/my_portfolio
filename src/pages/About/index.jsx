@@ -1,3 +1,4 @@
+import React from 'react';
 import GoBackButton from "../../components/GoBackButton";
 import foto from "./../../img/my-foto.webp";
 import "./style.css";

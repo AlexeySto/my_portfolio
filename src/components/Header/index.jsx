@@ -1,3 +1,4 @@
+import React from 'react';
 import BackendSkills from "../Skills/BackendSkills";
 import FrontendSkills from "../Skills/FrontendSkills";
 import "./style.css";

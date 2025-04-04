@@ -1,3 +1,4 @@
+import React from 'react';
 import gitHubIcon from './images/gitHub-black.svg';
 import "./style.css";
 
