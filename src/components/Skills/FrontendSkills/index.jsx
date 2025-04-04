@@ -4,7 +4,7 @@ import Css from "./items/Css";
 import Git from "./items/Git";
 import Html from "./items/Html";
 import JavaScript from "./items/JavaScript";
-import React from "./items/React";
+import ReactJS from "./items/ReactJS";
 import Sass from "./items/Sass";
 import VisualStudio from "./items/VisualStudio";
 import "./../style.css";
@@ -15,7 +15,7 @@ const FrontendSkills = () => {
             <h2 className="title-2">Frontend</h2>
             <div className="content-list__item">
                 <JavaScript />
-                <React />
+                <ReactJS />
                 <VisualStudio />
                 <Html />
                 <Css />
