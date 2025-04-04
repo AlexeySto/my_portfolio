@@ -23,7 +23,7 @@ const Projects = () => {
 		}, 5000);
 	
 		return () => clearInterval(interval); // Очистка таймера при размонтировании
-	}, [maxIndex]);
+	}, [maxIndex, nextPage()]);
 
 	return (
 		<div className="container">

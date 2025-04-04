@@ -25,7 +25,7 @@ const Project = () => {
     }, 5000);
 
     return () => clearInterval(interval); // Очистка таймера при размонтировании
-  }, [maxIndex]);
+  }, [maxIndex, nextImage()]);
 
   return (
     <div className="container_scroll">

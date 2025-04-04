@@ -4,7 +4,7 @@ import "./style.css";
 
 const ButtonGitHub = ({ link }) => {
 	return (
-		<a className='git-hub-button' href={link} target="_blank" rel="noreferrer">
+		<a className='git-hub-button' href={link} target="_blank" rel="noopener noreferrer">
 			<img src={gitHubIcon} alt="" />
 			GitHub repo
 		</a>

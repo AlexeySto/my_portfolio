@@ -98,7 +98,7 @@ const SectionManager = () => {
     return () => {
       window.removeEventListener('wheel', handleScroll);
     };
-  }, [currentSection]);
+  }, [currentSection, handleScroll]);
 
   return {
     headerClassName,
