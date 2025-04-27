@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7bd7a39a03aa4baf75f66ce39b9a549",
+    "revision": "7ee1a1c89bc3ea092f3320fd4ee54fa6",
     "url": "/my_portfolio/index.html"
   },
   {
-    "revision": "37c4e73c5bc82f74b952",
+    "revision": "7b176beb2bdd0524e18b",
     "url": "/my_portfolio/static/css/main.eed4e215.chunk.css"
   },
   {
-    "revision": "131c85ce73ab9d55930b",
-    "url": "/my_portfolio/static/js/2.b9b7cbdb.chunk.js"
+    "revision": "6a9ef0e540bcb80f52fd",
+    "url": "/my_portfolio/static/js/2.85a6f515.chunk.js"
   },
   {
     "revision": "1aef9e0d481a6908c30509eb88500877",
-    "url": "/my_portfolio/static/js/2.b9b7cbdb.chunk.js.LICENSE.txt"
+    "url": "/my_portfolio/static/js/2.85a6f515.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d46a7d96b7e3d592c3b7",
-    "url": "/my_portfolio/static/js/3.beb5a038.chunk.js"
+    "revision": "22c053680b6013687ee4",
+    "url": "/my_portfolio/static/js/3.4ff13233.chunk.js"
   },
   {
-    "revision": "37c4e73c5bc82f74b952",
-    "url": "/my_portfolio/static/js/main.8baf5420.chunk.js"
+    "revision": "7b176beb2bdd0524e18b",
+    "url": "/my_portfolio/static/js/main.249f0352.chunk.js"
   },
   {
-    "revision": "4c522ab8d28486b4e52d",
-    "url": "/my_portfolio/static/js/runtime-main.09da2cf5.js"
+    "revision": "5f0f9ceddd37b5c26d79",
+    "url": "/my_portfolio/static/js/runtime-main.6083683c.js"
   },
   {
     "revision": "ecd33d374ec2f84429161e627c224281",
@@ -122,6 +122,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e47f6b6279bb7fbbaaa19756adaf2363",
     "url": "/my_portfolio/static/media/Project-6.e47f6b62.webp"
+  },
+  {
+    "revision": "f37051e7d37c912613b46888a3ae78dd",
+    "url": "/my_portfolio/static/media/Project-7-1.f37051e7.webp"
+  },
+  {
+    "revision": "07305c305054209910bebb8aa068596c",
+    "url": "/my_portfolio/static/media/Project-7-2.07305c30.webp"
+  },
+  {
+    "revision": "45eced357f130735d58274bb588eb3f8",
+    "url": "/my_portfolio/static/media/Project-7-3.45eced35.webp"
+  },
+  {
+    "revision": "118be8c56c7ea23a4a857644d39528d2",
+    "url": "/my_portfolio/static/media/Project-7-4.118be8c5.webp"
+  },
+  {
+    "revision": "6c782deb9883e41db40e984ca4fc683f",
+    "url": "/my_portfolio/static/media/Project-7.6c782deb.webp"
   },
   {
     "revision": "efcc8de305077ecc830c57d8f8fed8fb",
