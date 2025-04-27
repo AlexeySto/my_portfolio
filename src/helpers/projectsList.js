@@ -28,6 +28,12 @@ import project061 from "./../img/projects/Project-6-1.webp";
 import project062 from "./../img/projects/Project-6-2.webp";
 import project063 from "./../img/projects/Project-6-3.webp";
 
+import project07 from "./../img/projects/Project-7.webp";
+import project071 from "./../img/projects/Project-7-1.webp";
+import project072 from "./../img/projects/Project-7-2.webp";
+import project073 from "./../img/projects/Project-7-3.webp";
+import project074 from "./../img/projects/Project-7-4.webp";
+
 const projects = [
 	{
 		id: '1',
@@ -40,6 +46,15 @@ const projects = [
 	},
 	{
 		id: '2',
+		title: 'User Manage',
+		skills: 'PHP, Docker, Composer, CSS, Twig, MySQL',
+		img: project07,
+		images: [project071, project072, project073, project07, project074],
+		description: "UserManage - веб-приложения для эффективного управления списком пользователей. Проект разработан на чистом PHP с использованием шаблонизатора Twig для создания динамичного и отзывчивого пользовательского интерфейса. Для хранения данных используется система управления базами данных MySQL.",
+		gitHubLink: 'https://github.com/AlexeySto/UserManage',
+	},
+	{
+		id: '3',
 		title: 'E-shop',
 		skills: 'React, SASS',
 		img: project02,
@@ -48,7 +63,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/E-shop-react',
 	},
 	{
-		id: '3',
+		id: '4',
 		title: 'Portfolio Website',
 		skills: 'React',
 		img: project03,
@@ -57,7 +72,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/My-portfolio',
 	},
 	{
-		id: '4',
+		id: '5',
 		title: 'Airflow',
 		skills: 'Python, Airflow',
 		img: project04,
@@ -66,7 +81,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/Airflow',
 	},
 	{
-		id: '5',
+		id: '6',
 		title: 'Data Collector',
 		skills: 'Python, Scrapy',
 		img: project05,
@@ -75,7 +90,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/DataCollector',
 	},
 	{
-		id: '6',
+		id: '7',
 		title: 'Note Master',
 		skills: 'Python',
 		img: project06,
