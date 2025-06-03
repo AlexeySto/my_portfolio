@@ -34,6 +34,12 @@ import project072 from "./../img/projects/Project-7-2.webp";
 import project073 from "./../img/projects/Project-7-3.webp";
 import project074 from "./../img/projects/Project-7-4.webp";
 
+import project08 from "./../img/projects/Project-8.webp";
+import project081 from "./../img/projects/Project-8-1.webp";
+import project082 from "./../img/projects/Project-8-2.webp";
+import project083 from "./../img/projects/Project-8-3.webp";
+import project084 from "./../img/projects/Project-8-4.webp";
+
 const projects = [
 	{
 		id: '1',
@@ -46,6 +52,15 @@ const projects = [
 	},
 	{
 		id: '2',
+		title: 'ERP system',
+		skills: 'PHP, Yii2, JavaScript, MySQL, CSS, Bootstrap',
+		img: project08,
+		images: [project08, project081, project082, project083, project084],
+		description: "Это модульная система управления предприятием, разработанная на базе фреймворка Yii2. Проект предоставляет набор инструментов для автоматизации основных бизнес-процессов. В текущей версии проекта представлены только те страны, которые были реализованы мной.",
+		gitHubLink: 'https://github.com/AlexeySto/ERP-system',
+	},
+	{
+		id: '3',
 		title: 'User Manage',
 		skills: 'PHP, Docker, Composer, CSS, Twig, MySQL',
 		img: project07,
@@ -54,7 +69,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/UserManage',
 	},
 	{
-		id: '3',
+		id: '4',
 		title: 'E-shop',
 		skills: 'React, SASS',
 		img: project02,
@@ -63,7 +78,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/E-shop-react',
 	},
 	{
-		id: '4',
+		id: '5',
 		title: 'Portfolio Website',
 		skills: 'React',
 		img: project03,
@@ -72,7 +87,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/My-portfolio',
 	},
 	{
-		id: '5',
+		id: '6',
 		title: 'Airflow',
 		skills: 'Python, Airflow',
 		img: project04,
@@ -81,7 +96,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/Airflow',
 	},
 	{
-		id: '6',
+		id: '7',
 		title: 'Data Collector',
 		skills: 'Python, Scrapy',
 		img: project05,
@@ -90,7 +105,7 @@ const projects = [
 		gitHubLink: 'https://github.com/AlexeySto/DataCollector',
 	},
 	{
-		id: '7',
+		id: '8',
 		title: 'Note Master',
 		skills: 'Python',
 		img: project06,
